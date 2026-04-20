@@ -32,7 +32,7 @@ export default function NavigationStack({ users, setUsers, setCurrentUser }) {
       </Stack.Screen>
 
       <Stack.Screen name="MainTabs" component={NavigationTab} />
-    {/*<Stack.Screen name="Detail" component={DetailScreen} />*/}
+    {<Stack.Screen name="Detail" component={DetailScreen} />}
     </Stack.Navigator>
   );
 }
